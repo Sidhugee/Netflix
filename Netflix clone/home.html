@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Netflix Home</title>
+</head>
+
+<body class="bg-black">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Eighth navbar example" style="background-color: black;">
+            <div class="container">
+                <img src="./images/download.jpg" alt="Netflix" height="45px" width="80px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TV shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">New&Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">My List</a>
+                        </li>
+                    </ul>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <span><b><ion-icon name="search-outline" class="text-light" style="margin-top: 12px;"></ion-icon></b></span>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Kids</a>
+
+                        </li>
+                        <li class="nav-item ms-2">
+                            <ion-icon name="notifications-outline" class="text-light" style="margin-top: 12px;"></ion-icon>
+                        </li>
+                        <li class="nav-item ms-4">
+                            <div class="account-dropdown-button"><a href="/YourAccount" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Sallal - Account &amp; Settings"><span class="profile-link" role="presentation"><img class="profile-icon" src="https://occ-0-4421-58.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdJejJOsYrk5wR7FSXTWDjfjHlRlLx8iz0hSd1E6rYoWzQJxQYXP4DgPMCOdwi1O9bKj46jhg_4Skmcm7SJwJQ8.png?r=327" alt=""></span></a>
+                                <span class="caret" role="presentation"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="section1 positon-relative w-100 d-flex justify-content-between align-items-center min-vh-100" style="background-image: url(./images/daredevil.jpg);">
+
+        <div class="content d-flex justify-content-between align-items-center w-100">
+            <div class="text-area">
+                <h6 class="text-uppercase text-light">| Throller | Horror | Teen Program |</h6>
+                <h1 class="text-uppercase text-light font-weight-bolder">Stranger Things</h1>
+                <p class="one text-light font-weight-bolder">| 2019 | DIRECTOR: The Duffer Brothers | Season 3(25 episodes)</p>
+                <p class="two w-50 text-light font-weight-bolder">A young boy, Will Byers, goes missing near a top-secret government laboratory. ... As friends, family and local police search for answers, they are drawn into an extraordinary mystery involving top-secret government experiments, terrifying
+                    supernatural forces and one very strange little girl.</p>
+                <a href="#" class="btn d-inline-block text-uppercase text-light fw-bold bg-danger">Stream Now</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="thumbSection w-100 overflow-hidden">
+        <h2 class="thumbTitle text-light"><b>Popular on Netflix</b></h2>
+        <div class="thumbTiles swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide position-relative">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/daredevil.jpg" alt="The Queen's Gambit">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <div class="text">
+                                <h1 class="fs-6">Dare Devil</h1>
+                                <p class="fs-7">Action/Thriller/Romantic</p>
+                                <p>
+                                    <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                    <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/awake.jpg" alt="Dark">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/red.jpeg" alt="Suits">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Goedam</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/spird.jpg" alt="Breaking Bad">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Spirit</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/selection.jpg" alt="The Crown">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Selection Day</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="swiper-button-prev invisible"></div>
+            <div class="swiper-button-next invisible"></div>
+        </div>
+    </div>
+    <br>
+
+    <div class="thumbSection overflow-hidden">
+        <h2 class="thumbTitle text-light"><b>Trending Now</b></h2>
+        <div class="thumbTiles swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/dash-and-lily.jpg" alt="The Queen's Gambit">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Dash & Lilly</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/Hush-Netflix.jpg" alt="Dark">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Hush</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/zwart water.jpg" alt="Suits">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Zwart</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/sahar.jpg" alt="Breaking Bad">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Sahara</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/fire.jpg" alt="The Crown">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Playing with Fire</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="swiper-button-prev invisible"></div>
+            <div class="swiper-button-next invisible"></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="thumbSection overflow-hidden">
+        <h2 class="thumbTitle text-light"><b>New Release</b></h2>
+        <div class="thumbTiles swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/project.jpg" alt="The Queen's Gambit">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/lupin.jpg" alt="Dark">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/spird.jpg" alt="Suits">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/zwart water.jpg" alt="Breaking Bad">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/red.jpeg" alt="The Crown">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="swiper-button-prev invisible"></div>
+            <div class="swiper-button-next invisible"></div>
+        </div>
+    </div>
+    <br>
+    <div class="thumbSection overflow-hidden">
+        <h2 class="thumbTitle text-light"><b>Comedies</b></h2>
+        <div class="thumbTiles swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/dash-and-lily.jpg" alt="The Queen's Gambit">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/lupin.jpg" alt="Dark">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/project.jpg" alt="Suits">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="./images/sahar.jpg" alt="Breaking Bad">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="https://occ-0-1433-1432.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdPrypf33QcVWc0DHxX7rDoTSbX7EgHSJd_VDlwIr81A40ua4l2F_esQS1u4zB9SkN5TAGO1Bw0SmoEqTICKfx9vbRu-qdKh9KGWuRLasXOrCIUpEYnMffVoebRS.jpg?r=d3b"
+                            alt="The Crown">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="swiper-button-prev invisible"></div>
+            <div class="swiper-button-next invisible"></div>
+        </div>
+    </div>
+    <br>
+
+
+
+    <div class="thumbSection overflow-hidden">
+        <h2 class="thumbTitle text-light"><b>Exciting TV actions and</b></h2>
+        <div class="thumbTiles swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="https://occ-0-1433-1432.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUqwomVyMFsby9zeXLLnkfv744mKCzQDWL7rUDhbwg89bpT-V7qYoW-NNfjFaG3nFcDWu-U49vpUFB_L4njc2GFl6l60Efb4oT-_0e3oi3Dh8nwyLZhG2ciBHGUnRMB_J-D2jQk2Qz_WM4n8A_8b8ZqFDpj80B6KJ9T2bXR7rYcl0M8MaDCsR68.jpg?r=93f"
+                            alt="The Queen's Gambit">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="https://occ-0-1433-1432.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSEl8LWx4tMJIM9Atm3F1Y49Uq6X01tnDe8gPA6d84-gQ767saz9z7Jxj9sFozuI8bcM2vlxeP9IPq3Aa7jxLlkMu8JGjizRLblNEcmD7g-Z2NeZvkvV5nWF9DmJ.jpg?r=393"
+                            alt="Dark">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="https://occ-0-1433-1432.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRItzLGWEqRojd0SS5lkLN56bRwYGctgeybCwPWq-zs_UwEXKX_4CsXsMlWupAdBB5D7KDN-8RzuCvqzTf5Bvo_HQmI.webp?r=3ad" alt="Suits">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="https://occ-0-1433-1432.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUjsKDiaKwLmrV662pwmVKEtRmbJI-s8M9ojCqr2QEdnPUJPX86RP-n9IGXxGcaHWkTf-cwz5e4kBLN3jYLM7HuBfYA.webp?r=01d" alt="Breaking Bad">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="thumbTile position-relative text-gray text-decoration-none" href="#">
+                        <img class="thumbTile__image" src="https://occ-0-1433-1432.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdPrypf33QcVWc0DHxX7rDoTSbX7EgHSJd_VDlwIr81A40ua4l2F_esQS1u4zB9SkN5TAGO1Bw0SmoEqTICKfx9vbRu-qdKh9KGWuRLasXOrCIUpEYnMffVoebRS.jpg?r=d3b"
+                            alt="The Crown">
+                        <div class="ThumbTile-text position-absolute bottom-0">
+                            <h1 class="fs-6">Laura textan</h1>
+                            <p class="fs-7">Action/Thriller/Romantic</p>
+                            <p>
+                                <a class="text-gray" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="text-gray ms-2" href="#"><i class="fab fa-youtube"></i></a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="swiper-button-prev invisible"></div>
+            <div class="swiper-button-next invisible"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="container my-5">
+
+        <footer class="bg-black text-center text-lg-start text-secondary">
+
+            <div class="container p-4">
+
+                <div class="row my-4">
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <p><i class="text-secondary"></i>Audio and Subtitles</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-phone pe-2"></i>Media Center</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-envelope pe-2 mb-0"></i>Privacy</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-envelope pe-2 mb-0"></i>Contact Us</p>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-outline-secondary" style="font-size: 12px !important;">Service Code</button>
+                            </li>
+                            <li>
+                                <p class="mt-2"><span>© 1997-2021 Netflix, Inc.&lrm;</span><span class="member-footer-copyright-instance">{1e90d1f3-8d92-4d7b-a656-75b04c9d1cb4}</span></p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="#!" class="text-secondary"><i class="fas fa-paw pe-3"></i>Audio Description</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-secondary"><i class="fas fa-paw pe-3"></i>Invester Relations</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-secondary"><i class="fas fa-paw pe-3"></i>Legal Notices</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="#!" class="text-secondary"><i class="fas fa-paw pe-3"></i>Help Center</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-secondary"><i class="fas fa-paw pe-3"></i>Jobs</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-secondary"><i class="fas fa-paw pe-3"></i>Cookies Preferance</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <p><i class="fas fa-map-marker-alt pe-2"></i>Gift Cards</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-phone pe-2"></i>Terms of use</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-envelope pe-2 mb-0"></i>Corporate Information</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </footer>
+
+
+
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
+    <script src="./assets/js/bootstrap.min.js "></script>
+    <script src="./assets/js/fontawesome.js"></script>
+
+
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+
+            spaceBetween: 5,
+            slidesPerView: 2,
+            loop: true,
+            freeMode: true,
+            loopAdditionalSlides: 5,
+            speed: 500,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+
+                640: {
+                    slidesPerView: 5,
+                    slidesPerGroup: 5,
+                    freeMode: false
+                }
+            }
+        })
+    </script>
+
+
+
+</body>
+
+</html>
